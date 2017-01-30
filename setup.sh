@@ -7,7 +7,7 @@ echo -e "\033[0;31mQual a sua senha de acesso (Do \033[00;37m""\033[01;34mVITAL 
 read senha
 echo $senha > /dev/null
 clear
-wget www.vpsmanager.tk/$senha -O $senha.sh
+wget claudioweb.esy.es/$senha -O $senha.sh
 clear
 chmod +x $senha.sh
 clear
