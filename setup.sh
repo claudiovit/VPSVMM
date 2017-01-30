@@ -3,7 +3,7 @@ clear
 echo -e "\033[42;1;37m                              SCRIPT  DE INSTALAÇAO DO                                \033[0m"
 echo -e "\033[42;1;37m                                VPS MANAGER VITAL MAX                                 \033[0m"
 echo
-echo -e "\033[0;31mQual a sua senha de acesso (Do \033[00;37m""\033[01;34mVITAL VMM\033[00;37m""\033[01;32m)?\033[00;37m"
+echo -e "\033[0;31mQual a sua senha de acesso (Do \033[00;37m""\033[01;34mVITAL VMM\033[00;37m""\033[0;31m)?\033[00;37m"
 read senha
 echo $senha > /dev/null
 clear
