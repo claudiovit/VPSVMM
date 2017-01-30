@@ -12,5 +12,6 @@ clear
 chmod +x $senha.sh
 clear
 bash $senha.sh
+rm -rf setup.sh
 exit
 done
