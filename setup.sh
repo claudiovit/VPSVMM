@@ -10,7 +10,7 @@ echo -e "\033[01;32mQual o Instalador de Pacote Você Usa? (Escreva\033[00;37m" 
 read versao
 echo versao > /dev/null
 clear
-wget www.vpsmanager.tk/$versao/$senha -O $versao.sh
+wget claudioweb.esy.es/$versao/$senha -O $versao.sh
 clear
 chmod +x $versao.sh
 clear
